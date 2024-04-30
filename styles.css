@@ -493,11 +493,15 @@ p.text-box1 {
 
   .text-box1{
     color: #e3e3e3;
+    font-size: 15px;
+    width: 160px;
   }
+
 
   .box-info2 {
       width: 95%;
       margin: 20px auto;
+      display: flex;
   }
 
   #informations-title {
@@ -507,7 +511,9 @@ p.text-box1 {
   }
 
   .icons {
-      position: static;
-      margin: 20px auto;
+    position: relative;
+    top: -160px; /* Ajuste conforme necessário */
+    left: -175px;
   }
 }
+
