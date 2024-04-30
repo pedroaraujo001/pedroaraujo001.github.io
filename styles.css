@@ -491,11 +491,11 @@ p.text-box1 {
       background: rgb(18, 18, 18);
   }
 
-  .text-box1{
-    color: #e3e3e3;
-    font-size: 15px;
-    width: 160px;
-  }
+  .text-box1 {
+    width: 220px;
+    margin: 0 auto; /* Centraliza o texto horizontalmente */
+}
+
 
 
   .box-info2 {
@@ -513,7 +513,6 @@ p.text-box1 {
   .icons {
     position: relative;
     top: -160px; /* Ajuste conforme necessário */
-    left: -175px;
+    left: -125px;
   }
 }
-
