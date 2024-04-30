@@ -1,0 +1,513 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    
+}
+
+
+body{
+    background-color: rgb(18, 18, 18);
+}
+
+#navbar {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 11px;
+    padding: 30px 25px;
+    max-width: 100%;
+    list-style: none;
+    gap: 50px;
+  }
+
+  #navbar a{
+    text-decoration: none;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 10px;
+    border-radius: 12px;
+    color: #fff;
+  }
+
+  #navbar a:hover{
+    
+    border: 1px solid rgb(195, 231, 255); 
+    background:  rgb(195, 231, 255) ;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    
+
+  }
+
+  #logo{
+    width: 200px;
+    position: absolute;
+    margin-left: 200px;
+    
+  }
+
+  #rafael-banner{
+width: 0px;  }
+
+  #sales-icon {
+    width: 300px;
+    position: absolute;
+    margin-left: 1000px;
+    opacity: 0.7;
+    margin-top: 300px;
+    animation: float 4s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+    
+  }
+
+#container {
+    background-image: url(./img/banner.png);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+
+#box-info{
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 35px;
+    z-index: auto;
+}
+
+#subtitle, #title {
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    line-height: 75px;
+    
+}
+
+#title-span{
+    color:rgb(171, 226, 255);
+    text-decoration:underline;
+
+}
+#subtitle-2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#time-information{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#watch-emoji{
+
+  width: 30px;
+  height: 30px;
+
+}
+
+#text-time-information{
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color:#ffffffaf
+
+}
+
+.neon{
+  background:rgb(13, 115, 204);
+  border-radius: 7px;
+  color:#fff;
+  font-size: 22px;
+  border:none;
+  position:relative;
+  height:60px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.neon:hover{
+  background: rgb(11, 88, 155);
+  color: #fff ;
+}
+
+  /* Container com descrições dos serviços*/
+
+
+
+  .box-container{
+    width: 75%;
+    display: flex;
+    height: 700px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 160px;
+  }
+
+  .text-box {
+    max-width: 600px;
+  }
+
+  #phone-image{
+    width: 600px;
+  }
+  
+  .box-title {
+   
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    margin-bottom: 50px;
+
+
+  }
+
+  .box-subtitle {
+    color: #fff;
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+
+  .change-color{
+    color: rgb(22, 135, 233);
+    text-decoration: underline;
+  }
+  
+
+  .box-container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(./img/background.png);
+    background-size: cover;
+
+    
+    
+  }
+
+  #photo-box2 {
+    width: 600px;
+    margin-left: 200px;
+    
+  }
+
+  .text-box2{
+    margin-top: 90px;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 400px;
+  }
+
+  #offer{
+    margin-top:80px;
+    border: 1px solid #ffffff84;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    align-items: center;
+    margin-left:70px;
+
+  }
+
+  #price-fake{
+    color: rgb(235, 63, 33);
+    text-decoration: line-through;
+    font-size: 26px;
+  }
+
+  #price-for{
+    color: #fff;
+    
+    padding: 10px 0;
+  }
+
+  #price-real{
+    font-size: 40px;
+    color: rgb(36, 224, 231) ;
+  }
+
+  .btn-2{
+
+    background:rgb(13, 115, 204);
+    border-radius: 7px;
+    color:#fff;
+    font-size: 22px;
+    border:none;
+    position:relative;
+    height:60px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    margin-top:40px;
+    margin-left: 40px;
+
+  }
+
+
+  .btn-2:hover{
+    background: rgb(11, 88, 155);
+    color: #fff ;
+  }
+
+
+  .box-container-3{
+    width: 100%;
+    height: 600px;
+    
+  }
+  
+  .box-informations {
+    background-color: rgb(18, 18, 18);
+    width: 75%;
+    height: 500px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+    
+  }
+
+  .box-info2 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    background-color: rgb(17, 17, 17);
+    width: 300px;
+    height: 230px;
+    margin-left: 50px;
+    opacity: 10;
+    border: 3px solid rgb(11, 88, 155);
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 3px 3px 20px  #ffffff1c;
+    
+}
+
+.box-info2:hover {
+  background-color: rgb(42, 42, 42);
+  transition: .7s;
+  
+}
+
+p.text-box1 {
+  justify-content: center;
+  margin: 0 auto;
+  color: rgb(245, 245, 245);
+  margin-top: 7px;
+}
+
+#informations-title{
+  text-align: center; 
+  color: #fff;
+  font-size: 36px; 
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  margin-top: -50px;
+}
+
+.icons{
+  position: absolute;
+  top: -20px; 
+  margin-left: 60px;
+  margin-top: 70px;
+}
+
+#copy{
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-size: 14px;
+}
+#footer-text{
+  background-color: black;
+  margin-top: 40px;
+}
+
+
+/* Estilos para dispositivos com largura de tela menor que 600px (celulares) */
+@media only screen and (max-width: 600px) {
+  body {
+      padding: 0;
+  }
+
+  #navbar {
+     display: none;
+  }
+
+  #rafael-banner{
+    width: 100%;
+    margin-top: -230px;
+  }
+
+
+  #logo {
+      margin: 0 auto ;
+      width: 150px;
+  }
+  
+
+
+  #title{
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  #subtitle {
+    font-size: 25px;
+    
+  }
+
+  #time-information {
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#watch-emoji {
+    width: 30px;
+    height: 30px;
+}
+
+#text-time-information {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #ffffffaf;
+}
+
+
+  #sales-icon {
+      display: none;
+  }
+
+  #container {
+      height: auto;
+      background-image: none;
+     
+  }
+
+  #box-info {
+      margin: 230px 0  auto;
+      text-align: center;
+      font-size: 25px;
+  }
+
+  .box-container {
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .text-box {
+      max-width: 100%;
+      text-align: center;
+  }
+
+  #phone-image {
+      width: 100%;
+  }
+
+  .box-title {
+      font-size: 25px;
+  }
+
+  .change-color{
+    color: rgb(0, 153, 255);
+
+  }
+
+  .box-subtitle {
+      font-size: 18px;
+  }
+  
+
+  .box-container2 {
+      flex-direction: column;
+      margin-top: 40px;
+  }
+
+  #photo-box2 {
+      width: 100%;
+      margin: 0;
+  }
+
+  .text-box2 {
+      margin: 0;
+      text-align: center;
+      width: 75%;
+  }
+
+  #offer {
+      width: 80%;
+      margin: 20px auto;
+  }
+
+  #price-fake,
+  #price-real {
+      font-size: 22px;
+  }
+  #price-fake{
+    padding-top: 15px;
+  }
+  
+
+  #price-for{
+    font-size: 15px;
+  }
+  #price-real{
+    color: rgb(52, 136, 52);
+    padding-bottom: 15px;
+  }
+
+  .btn-2 {
+      margin: 20px auto;
+  }
+
+  .box-informations {
+      flex-direction: column;
+      height: auto;
+      background: rgb(18, 18, 18);
+  }
+
+  .text-box1{
+    color: #e3e3e3;
+  }
+
+  .box-info2 {
+      width: 95%;
+      margin: 20px auto;
+  }
+
+  #informations-title {
+    font-size: 30px;
+    position: relative;    
+      margin-bottom: 40px;
+  }
+
+  .icons {
+      position: static;
+      margin: 20px auto;
+  }
+}
